@@ -9,6 +9,8 @@ import {
   FaHashtag
 } from 'react-icons/fa'
 
+import logo from '../static/myAvatar.svg'
+
 const Sidebar = styled.div`
   /* Device = Tablets, iPads (portrait) */
   @media (min-width: 768px) and (max-width: 1024px) {
@@ -138,7 +140,7 @@ export default ({ title, authorName }) => (
       <SiteTitle>{title}</SiteTitle>
     </StyledLink>
     <Logo
-      src="myAvatar.svg"      
+      src={logo}      
       alt={authorName}
     />
     <NameBoard>{authorName}</NameBoard>
