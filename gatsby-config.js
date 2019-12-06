@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Tech Blog',
-    siteDescription: 'Tech Blog - A blog by Ramon Lence',
+    title: 'My Blog',
+    siteDescription: 'My Blog - by Ramon Lence',
     authorName: 'Ramon Lence'
   },
   plugins: [
