@@ -10,6 +10,14 @@ export const PostWrapper = styled.div`
     padding: 70px 16px 0;
   }
 
+  pre {
+    white-space: pre-wrap; //css3
+    white-space: moz-pre-wrap; //firefox
+    white-space: -pre-wrap; //opera 4-6
+    white-space: -o-pre-wrap; //opera 7
+    word-wrap: break-word; //internet explorer
+  }
+
   h1 {
     margin: 0.25em 0;
   }
