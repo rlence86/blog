@@ -14,11 +14,7 @@ To create your Kubernetes cluster, you have to run (this will try to allow 2GB o
 minikube start --vm-driver=virtualbox
 ```
 
-When it finishes, you will see something like this:
-
-```bash
-Done! kubectl is now configured to use "minikube"
-```
+When it finishes, you will see something like "Done! kubectl is now configured to use".
 
 From now on, you will be able to interact with your cluster using kubectl or the dashboard. To use kubectl, you can install it in your terminal or use "minikube kubectl" instead. I will show my examples using the second option.
 
