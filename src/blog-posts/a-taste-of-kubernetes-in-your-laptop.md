@@ -62,4 +62,14 @@ It will open a new tab in your browser where you will be able to manage your clu
 
 Paste that code in the Jenkins form in your web browser and you will be able to finish your Jenkins installation. This way, you have a CI environment served from your Kubernetes cluster. Cool, eh?
 
-With kubectl or the d
+With kubectl or the dashboard, you can add or remove your deployments. If you want to stop your minikube cluster, just run:
+
+```bash
+minikube stop
+```
+
+And, if you want to stop playing with it and remove everything, run:
+
+```bash
+minikube delete
+```
