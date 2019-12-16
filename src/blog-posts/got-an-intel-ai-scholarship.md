@@ -4,7 +4,7 @@ date: '2019-12-15'
 tags: ['AI', 'Udacity', 'Intel']
 ---
 
-I'm very excited that I got one of the 750 available seats for the [Intel Edge AI Scholarship Program](https://www.udacity.com/scholarships/intel-edge-ai-scholarship)!
+I'm very excited that I got one of the available seats for the [Intel Edge AI Scholarship Program](https://www.udacity.com/scholarships/intel-edge-ai-scholarship)!
 
 <img src="https://udacity-email.s3-us-west-2.amazonaws.com/Scholarships/Intel-Scholarship%402x.jpg"
      alt="Intel Scholarship Winner"
