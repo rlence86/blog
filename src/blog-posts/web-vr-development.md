@@ -22,16 +22,12 @@ This architecture is widely used on game engines like Unity. An **entity** is an
 
 I have recently created a VR experience using A-Frame. You can check the source code [here](https://github.com/rlence86/webvrdemo-ballgame). You can also play it [here](https://webvrdemo.ramonlence.com/). This game was tested in [Oculus Quest](https://www.oculus.com/quest) but it should work in other devices.
 
-## Code overview
-
 In the [repo](https://github.com/rlence86/webvrdemo-ballgame) you can find a **dist** folder. That is the folder to be published. Inside it, you can find the **index.html** file.
 Fist thing you can see on the header is A-Frame importing, followed by imports for phisics and colliding sistems components to detect ball collisions with the VR hands. Last JS import is the **main.js** which is generated during project build. This file will include our JS code.
 
 In the body, first elements are there for importing media like images and sounds. This experience is loading all of them before starting but this can be customised depending on your needs. 
 
 Game background looking like Tron is provided by [aframe-environment-component](https://github.com/supermedium/aframe-environment-component) which you can also use for your experiences. Also this HTML is instatiating the platform under player's feet. Last thing you can see in the HTML is an empty entity with id **game-placeholder** and with the component **game** attached to it. Let's take a look to the custom components.
-
-## Custom components
 
 In *src/components* you can find all custom components I used for this experience. The **game** component is handling the game status and is in charge of showing the starting menu, instantiating the **ball-game** and detect when it is finished. The **menu** component is in charge of showing the options (only one in this example), handle when it is selected and emitting an event when that happens. The **ball-game** component is in charge of start instantiating random balls, detect when they are intercepted or they reach their target and emit an event when the game is over. The **ball** component defines every ball behaviour.
 
