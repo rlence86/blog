@@ -8,7 +8,17 @@ Last night I kickstarted a new game made with [Unity](https://unity.com/). I wan
 
 I'm not a game developer, but I want to learn on every iteration I plan to do with this. The game isn't still clear in my mind, but I want to make a Voxel Basketball game. I have started to make some voxel assets and I'm also enrolled in a [voxel characters course](https://www.domestika.org/es/courses/1404-introduccion-al-voxel-art-para-el-diseno-de-personajes/course), so I think this is the best way to put everything into practice.
 
-<center><img src="../static/santa.png" width="250" alt="My first Voxel creation"/><figcaption>My first Voxel creation</figcaption></center>
+<div style="text-align:center">
+  <iframe
+    src="https://instagram.com/p/CI_JoiyHbIp/embed"
+    frameborder="0"
+    allowfullscreen
+    scrolling="no"
+    allowtransparency
+    width="320"
+    height="320"
+  ></iframe>
+</div>
 
 ## The prototype
 
