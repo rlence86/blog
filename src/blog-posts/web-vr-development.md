@@ -35,4 +35,4 @@ In *src/components* you can find all custom components I used for this experienc
 
 I made this video to show some WebVR demos. First one is the basic [Hello World of A-Frame](https://aframe.io/examples/showcase/helloworld/). Second one is the [game](https://webvrdemo.ramonlence.com/) I created and discussed before. The last one is the [WebXR Hello World](https://mixedreality.mozilla.org/hello-webxr/) developed by Mozilla. This last one was not created with A-Frame and you can find more details about it in their [blog](https://blog.mozvr.com/hello-webxr/).
 
-[![WebVR Demo](https://img.youtube.com/vi/DWry679L8WY/0.jpg)](https://www.youtube.com/watch?v=DWry679L8WY "WebVR Demo")
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DWry679L8WY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
