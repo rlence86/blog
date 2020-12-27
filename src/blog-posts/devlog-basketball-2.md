@@ -12,7 +12,7 @@ tags: ['Games dev']
 - <del>Add outer bounds on the basketball court so players can't escape from it.</del> DONE
 - <del>Add a basket and make players able to shot and score.</del> DONE
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6fNmjlFCqlA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Devlog: A basketball Game - 2](http://img.youtube.com/vi/6fNmjlFCqlA/0.jpg)](http://www.youtube.com/watch?v=6fNmjlFCqlA "Devlog: A basketball Game - 2")
 
 In this batch, I've made improvements marked in the last post. The first design change is about game mechanics. Previous version movements worked with a keyboard/controller. Now, this is a mouse click game (or tap screen on mobile version). Like in the previous version, we control the player with the ball. When we click on the court, the player moves to that position. If we click on a mate, the player passes the ball, but first, our player looks to the mate, so we can mark the first target as done.
 
