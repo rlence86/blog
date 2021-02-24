@@ -30,11 +30,10 @@ Once I had installed Jest, I want to run tests doing
 ```
 npm run test
 ```
-so I remove the test line inside package.json file (scripts section) and add these three lines:
+so I remove the test line inside package.json file (scripts section) and add these lines:
 ```
 "test": "jest",
-"test:watch": "jest --watch",
-"test:ci": "jest --runInBand",
+"test:watch": "jest --watch"
 ```
 
 For e2e tests, Angular provides [Protractor](https://www.protractortest.org/#/) which I've never used before. Anyway, from what I've read [out there](https://christianlydemann.com/why-i-moved-from-protractor-to-cypress/), I have decided to remove Protractor from the Angular project and use [Cypress](https://www.cypress.io/) instead, following these [instructions](https://medium.com/briebug-blog/switching-to-cypress-from-protractor-in-less-than-30-seconds-b60b00def4a0).
@@ -57,12 +56,11 @@ Following this [tutorial](https://docs.cypress.io/guides/continuous-integration/
     "build": "ng build",
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:ci": "jest --runInBand",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "cy:run": "cypress run",
     "e2e:ci": "start-server-and-test start http://localhost:4200 cy:run",
-    "ci": "ng lint && npm run test:ci && npm run e2e:ci && ng build"
+    "ci": "ng lint && npm run test && npm run e2e:ci && ng build --prod"
   },
 ```
 So running npm run ci, I check linting, run jest tests in CI mode, and use start-server-and-test plugin (as explained [here](https://docs.cypress.io/guides/continuous-integration/introduction.html)) to run my server and run e2e tests on it. The last step is the build of the site.
