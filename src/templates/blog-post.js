@@ -5,12 +5,13 @@ import styled from 'styled-components'
 import Layout from '../components/layout'
 import PostTags from '../components/postTags'
 import { PostWrapper } from '../components/postwrapper'
+import { Disqus } from 'gatsby-plugin-disqus'
 
 const StyledTag = styled.span`
   font-style: italic;
 `
 
-export default ({ data }) => {
+export default ({ data, location }) => {
   const post = data.markdownRemark
 
   return (
@@ -24,6 +25,11 @@ export default ({ data }) => {
           <StyledTag>Tags</StyledTag>: <PostTags tags={post.frontmatter.tags} />
         </p>
       </PostWrapper>
+      <Disqus 
+        identifier={post.id}
+        title={post.title}
+        url={`https://www.ramonlence.com/${location.pathname}`}
+      />
     </Layout>
   )
 }
