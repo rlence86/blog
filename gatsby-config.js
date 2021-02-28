@@ -45,6 +45,12 @@ module.exports = {
         ]
       }
     },
+    {
+      resolve: `gatsby-plugin-disqus`,
+      options: {
+          shortname: `ramonlence`
+      }
+    },
     'gatsby-plugin-offline',
     `gatsby-plugin-react-helmet`,
     'gatsby-plugin-styled-components'
